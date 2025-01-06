@@ -3,6 +3,7 @@ MODx Login module Returns an error message in JSON format in the response and re
 Modified by Lystapad BY https://github.com/Lystapad Returns an error message in JSON format in the response and returns a JSON error by default if the requested login or password value is incorrect. intercepted by the corresponding script
 
 Disable selection conditions in lines 311 and 325 to return a message in JSON format without acceptance:
+yoursite\core\components\login\controllers\web\Login.php
 
     311  // if ($this->getProperty('jsonResponse')) {
     ---
