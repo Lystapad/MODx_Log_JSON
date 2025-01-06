@@ -21,8 +21,11 @@
  */
 
  /*
- Modified by Lystapad BY https://github.com/Lystapad/MODx_Log_JSON Returns an error message in JSON format in the response and returns a JSON error by default if the requested login or password value is incorrect. intercepted by the corresponding script
+ Modified by Lystapad BY https://github.com/Lystapad/MODx_Log_JSON 
+ Returns an error message in JSON format in the response and returns a JSON error by default if the requested login or password value is incorrect. 
+ intercepted by the corresponding script
 */
+
 /**
  * Handles logging in and out of users
  *
